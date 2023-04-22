@@ -88,7 +88,7 @@ public class GroceryShopPaymentGateway {
 
         List<PurchaseUnit> purchaseUnits = new ArrayList<>();
         PurchaseUnit purchaseUnit = new PurchaseUnit();
-        purchaseUnit.amountWithBreakdown(new AmountWithBreakdown().value("100.00").currencyCode("USD"));
+        purchaseUnit.amountWithBreakdown(new AmountWithBreakdown().value("100.00").currencyCode("INR"));
         purchaseUnits.add(purchaseUnit);
 
         order.purchaseUnits(purchaseUnits);
